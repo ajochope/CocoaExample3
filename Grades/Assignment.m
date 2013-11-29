@@ -27,7 +27,27 @@
 {
     [name release];
     [super dealloc];
-    
-    
 }
+
+-(id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super init];
+    if(self){
+        name = [[aDecoder decodeObjectForKey:@"name"]retain];
+        grade = [aDecoder decodeIntForKey:@"grade"];
+    
+    }
+    return self;
+}
+
+-(void)encodeWithCoder:(NSCoder *)aCoder
+{
+    [aCoder encodeObject:name forKey:@"name"];
+    [aCoder encodeInt:grade forKey:@"grade"];
+
+
+}
+
+
+
 @end

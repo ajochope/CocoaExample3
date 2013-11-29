@@ -21,6 +21,7 @@
 		972962B31848AB65004AB383 /* GradesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972962B21848AB65004AB383 /* GradesTests.m */; };
 		972962BE1848ACD1004AB383 /* Assignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 972962BD1848ACD1004AB383 /* Assignment.m */; };
 		97C407EF1848B7DE007ADD55 /* turtleico3.icns in Resources */ = {isa = PBXBuildFile; fileRef = 97C407EE1848B7DE007ADD55 /* turtleico3.icns */; };
+		97C407F11848C6AF007ADD55 /* fileico.icns in Resources */ = {isa = PBXBuildFile; fileRef = 97C407F01848C6AF007ADD55 /* fileico.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		972962BC1848ACD1004AB383 /* Assignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment.h; sourceTree = "<group>"; };
 		972962BD1848ACD1004AB383 /* Assignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment.m; sourceTree = "<group>"; };
 		97C407EE1848B7DE007ADD55 /* turtleico3.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = turtleico3.icns; sourceTree = "<group>"; };
+		97C407F01848C6AF007ADD55 /* fileico.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = fileico.icns; path = ../fileico.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		9729628C1848AB65004AB383 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				97C407F01848C6AF007ADD55 /* fileico.icns */,
 				97C407EE1848B7DE007ADD55 /* turtleico3.icns */,
 				9729628D1848AB65004AB383 /* Grades-Info.plist */,
 				9729628E1848AB65004AB383 /* InfoPlist.strings */,
@@ -245,6 +248,7 @@
 				972962A11848AB65004AB383 /* Images.xcassets in Resources */,
 				972962901848AB65004AB383 /* InfoPlist.strings in Resources */,
 				972962961848AB65004AB383 /* Credits.rtf in Resources */,
+				97C407F11848C6AF007ADD55 /* fileico.icns in Resources */,
 				97C407EF1848B7DE007ADD55 /* turtleico3.icns in Resources */,
 				9729629F1848AB65004AB383 /* MainMenu.xib in Resources */,
 			);

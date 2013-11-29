@@ -9,18 +9,22 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>mydoc</string>
+				<string>zzz</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string></string>
+			<string>turtleico3</string>
 			<key>CFBundleTypeName</key>
-			<string>DocumentType</string>
+			<string>Grades Doc</string>
 			<key>CFBundleTypeOSTypes</key>
 			<array>
 				<string>????</string>
 			</array>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.Oscar.Cocoa.examples</string>
+			</array>
 			<key>NSDocumentClass</key>
 			<string>Document</string>
 		</dict>
@@ -51,5 +55,27 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Grades Doc</string>
+			<key>UTTypeIconFile</key>
+			<string>turtleico3</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.Oscar.Cocoa.examples</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>zzz</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>
