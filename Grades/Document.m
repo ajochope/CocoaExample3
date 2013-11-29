@@ -21,6 +21,14 @@
     return self;
 }
 
+-(void)dealloc
+{
+    [assignments release];
+    [super dealloc];
+
+}
+
+
 - (NSString *)windowNibName
 {
     // Override returning the nib file name of the document
