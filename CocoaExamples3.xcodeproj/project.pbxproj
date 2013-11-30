@@ -35,24 +35,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		972962821848AB65004AB383 /* Grades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grades.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		972962821848AB65004AB383 /* CocoaExamples3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaExamples3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		972962851848AB65004AB383 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		972962881848AB65004AB383 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		972962891848AB65004AB383 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9729628A1848AB65004AB383 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9729628D1848AB65004AB383 /* Grades-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grades-Info.plist"; sourceTree = "<group>"; };
+		9729628D1848AB65004AB383 /* CocoaExamples3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaExamples3-Info.plist"; sourceTree = "<group>"; };
 		9729628F1848AB65004AB383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		972962911848AB65004AB383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		972962931848AB65004AB383 /* Grades-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grades-Prefix.pch"; sourceTree = "<group>"; };
+		972962931848AB65004AB383 /* CocoaExamples3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaExamples3-Prefix.pch"; sourceTree = "<group>"; };
 		972962951848AB65004AB383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		972962971848AB65004AB383 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
 		972962981848AB65004AB383 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
 		9729629B1848AB65004AB383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
 		9729629E1848AB65004AB383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		972962A01848AB65004AB383 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		972962A61848AB65004AB383 /* GradesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		972962A61848AB65004AB383 /* CocoaExamples3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaExamples3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		972962A71848AB65004AB383 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		972962AE1848AB65004AB383 /* GradesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradesTests-Info.plist"; sourceTree = "<group>"; };
+		972962AE1848AB65004AB383 /* CocoaExamples3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaExamples3Tests-Info.plist"; sourceTree = "<group>"; };
 		972962B01848AB65004AB383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		972962B21848AB65004AB383 /* GradesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradesTests.m; sourceTree = "<group>"; };
 		972962BC1848ACD1004AB383 /* Assignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment.h; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		972962831848AB65004AB383 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				972962821848AB65004AB383 /* Grades.app */,
-				972962A61848AB65004AB383 /* GradesTests.xctest */,
+				972962821848AB65004AB383 /* CocoaExamples3.app */,
+				972962A61848AB65004AB383 /* CocoaExamples3Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,10 +141,10 @@
 			children = (
 				97C407F01848C6AF007ADD55 /* fileico.icns */,
 				97C407EE1848B7DE007ADD55 /* turtleico3.icns */,
-				9729628D1848AB65004AB383 /* Grades-Info.plist */,
+				9729628D1848AB65004AB383 /* CocoaExamples3-Info.plist */,
 				9729628E1848AB65004AB383 /* InfoPlist.strings */,
 				972962911848AB65004AB383 /* main.m */,
-				972962931848AB65004AB383 /* Grades-Prefix.pch */,
+				972962931848AB65004AB383 /* CocoaExamples3-Prefix.pch */,
 				972962941848AB65004AB383 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -162,7 +162,7 @@
 		972962AD1848AB65004AB383 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				972962AE1848AB65004AB383 /* GradesTests-Info.plist */,
+				972962AE1848AB65004AB383 /* CocoaExamples3Tests-Info.plist */,
 				972962AF1848AB65004AB383 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -171,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		972962811848AB65004AB383 /* Grades */ = {
+		972962811848AB65004AB383 /* CocoaExamples3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 972962B61848AB65004AB383 /* Build configuration list for PBXNativeTarget "Grades" */;
+			buildConfigurationList = 972962B61848AB65004AB383 /* Build configuration list for PBXNativeTarget "CocoaExamples3" */;
 			buildPhases = (
 				9729627E1848AB65004AB383 /* Sources */,
 				9729627F1848AB65004AB383 /* Frameworks */,
@@ -183,14 +183,14 @@
 			);
 			dependencies = (
 			);
-			name = Grades;
+			name = CocoaExamples3;
 			productName = Grades;
-			productReference = 972962821848AB65004AB383 /* Grades.app */;
+			productReference = 972962821848AB65004AB383 /* CocoaExamples3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		972962A51848AB65004AB383 /* GradesTests */ = {
+		972962A51848AB65004AB383 /* CocoaExamples3Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 972962B91848AB65004AB383 /* Build configuration list for PBXNativeTarget "GradesTests" */;
+			buildConfigurationList = 972962B91848AB65004AB383 /* Build configuration list for PBXNativeTarget "CocoaExamples3Tests" */;
 			buildPhases = (
 				972962A21848AB65004AB383 /* Sources */,
 				972962A31848AB65004AB383 /* Frameworks */,
@@ -201,9 +201,9 @@
 			dependencies = (
 				972962AB1848AB65004AB383 /* PBXTargetDependency */,
 			);
-			name = GradesTests;
+			name = CocoaExamples3Tests;
 			productName = GradesTests;
-			productReference = 972962A61848AB65004AB383 /* GradesTests.xctest */;
+			productReference = 972962A61848AB65004AB383 /* CocoaExamples3Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9729627D1848AB64004AB383 /* Build configuration list for PBXProject "Grades" */;
+			buildConfigurationList = 9729627D1848AB64004AB383 /* Build configuration list for PBXProject "CocoaExamples3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -233,8 +233,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				972962811848AB65004AB383 /* Grades */,
-				972962A51848AB65004AB383 /* GradesTests */,
+				972962811848AB65004AB383 /* CocoaExamples3 */,
+				972962A51848AB65004AB383 /* CocoaExamples3Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +288,7 @@
 /* Begin PBXTargetDependency section */
 		972962AB1848AB65004AB383 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 972962811848AB65004AB383 /* Grades */;
+			target = 972962811848AB65004AB383 /* CocoaExamples3 */;
 			targetProxy = 972962AA1848AB65004AB383 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -411,9 +411,9 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Grades/Grades-Prefix.pch";
-				INFOPLIST_FILE = "Grades/Grades-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Grades/CocoaExamples3-Prefix.pch";
+				INFOPLIST_FILE = "Grades/CocoaExamples3-Info.plist";
+				PRODUCT_NAME = CocoaExamples3;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -424,9 +424,9 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Grades/Grades-Prefix.pch";
-				INFOPLIST_FILE = "Grades/Grades-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Grades/CocoaExamples3-Prefix.pch";
+				INFOPLIST_FILE = "Grades/CocoaExamples3-Info.plist";
+				PRODUCT_NAME = CocoaExamples3;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -446,8 +446,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "GradesTests/GradesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "GradesTests/CocoaExamples3Tests-Info.plist";
+				PRODUCT_NAME = CocoaExamples3Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -464,8 +464,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Grades/Grades-Prefix.pch";
-				INFOPLIST_FILE = "GradesTests/GradesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "GradesTests/CocoaExamples3Tests-Info.plist";
+				PRODUCT_NAME = CocoaExamples3Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -474,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9729627D1848AB64004AB383 /* Build configuration list for PBXProject "Grades" */ = {
+		9729627D1848AB64004AB383 /* Build configuration list for PBXProject "CocoaExamples3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				972962B41848AB65004AB383 /* Debug */,
@@ -483,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		972962B61848AB65004AB383 /* Build configuration list for PBXNativeTarget "Grades" */ = {
+		972962B61848AB65004AB383 /* Build configuration list for PBXNativeTarget "CocoaExamples3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				972962B71848AB65004AB383 /* Debug */,
@@ -492,7 +492,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		972962B91848AB65004AB383 /* Build configuration list for PBXNativeTarget "GradesTests" */ = {
+		972962B91848AB65004AB383 /* Build configuration list for PBXNativeTarget "CocoaExamples3Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				972962BA1848AB65004AB383 /* Debug */,
