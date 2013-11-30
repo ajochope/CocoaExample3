@@ -21,8 +21,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="507" height="413"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gel-GL-M0c">
-                        <rect key="frame" x="400" y="365" width="66" height="32"/>
+                    <button verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gel-GL-M0c">
+                        <rect key="frame" x="427" y="365" width="66" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Add" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="T4F-JJ-15z">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -32,8 +32,8 @@
                             <action selector="add:" target="NdL-zn-15q" id="36H-go-KE8"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bKs-Le-g3T">
-                        <rect key="frame" x="400" y="203" width="90" height="32"/>
+                    <button verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bKs-Le-g3T">
+                        <rect key="frame" x="403" y="203" width="90" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Remove" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="i3V-4I-tPg">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -43,7 +43,7 @@
                             <action selector="remove:" target="NdL-zn-15q" id="DeE-Z6-l7y"/>
                         </connections>
                     </button>
-                    <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dg2-pn-H2W">
+                    <scrollView ambiguous="YES" misplaced="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dg2-pn-H2W">
                         <rect key="frame" x="20" y="210" width="372" height="183"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <clipView key="contentView" ambiguous="YES" misplaced="YES" id="WEf-ak-ZOn">
@@ -107,7 +107,7 @@
                             <autoresizingMask key="autoresizingMask"/>
                         </tableHeaderView>
                     </scrollView>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ph6-Gi-43A">
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ph6-Gi-43A">
                         <rect key="frame" x="14" y="146" width="64" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Left" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="I39-2p-S1f">
@@ -123,15 +123,15 @@
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oCD-Qd-UgE">
-                        <rect key="frame" x="245" y="146" width="82" height="32"/>
+                    <button verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oCD-Qd-UgE">
+                        <rect key="frame" x="209" y="146" width="82" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Center" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Hqi-wS-WDs">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="it4-vu-sA7">
+                    <button verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="it4-vu-sA7">
                         <rect key="frame" x="400" y="146" width="90" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Right" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="y4I-zW-6LP">
@@ -141,7 +141,21 @@
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="centerX" secondItem="M76-Xr-QxL" secondAttribute="centerX" constant="102" id="1kI-wE-lxh"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="M76-Xr-QxL" secondAttribute="bottom" constant="20" symbolic="YES" id="J1C-pb-SgV"/>
+                    <constraint firstItem="M76-Xr-QxL" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="100" id="K8L-nZ-3fJ"/>
+                    <constraint firstAttribute="trailing" secondItem="bKs-Le-g3T" secondAttribute="trailing" constant="20" symbolic="YES" id="LUw-zg-Cux"/>
+                    <constraint firstItem="it4-vu-sA7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="oCD-Qd-UgE" secondAttribute="trailing" constant="12" symbolic="YES" id="SJw-R7-v2D"/>
+                    <constraint firstItem="gel-GL-M0c" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dg2-pn-H2W" secondAttribute="trailing" constant="8" symbolic="YES" id="UNS-JP-CMt"/>
+                    <constraint firstAttribute="trailing" secondItem="it4-vu-sA7" secondAttribute="trailing" constant="23" id="ak3-9G-VbR"/>
+                    <constraint firstItem="oCD-Qd-UgE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="M76-Xr-QxL" secondAttribute="trailing" constant="12" symbolic="YES" id="cdy-Hz-IX3"/>
+                    <constraint firstAttribute="trailing" secondItem="gel-GL-M0c" secondAttribute="trailing" constant="20" symbolic="YES" id="e4d-S5-WOo"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="it4-vu-sA7" secondAttribute="bottom" constant="20" symbolic="YES" id="fTu-vS-Ixh"/>
+                    <constraint firstItem="bKs-Le-g3T" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dg2-pn-H2W" secondAttribute="trailing" constant="8" symbolic="YES" id="gAa-TA-wUo"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oCD-Qd-UgE" secondAttribute="bottom" constant="20" symbolic="YES" id="gUO-1h-Pow"/>
+                    <constraint firstItem="Ph6-Gi-43A" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="20" id="gXJ-lX-9iW"/>
+                    <constraint firstAttribute="centerX" secondItem="oCD-Qd-UgE" secondAttribute="centerX" priority="500" constant="3.5" id="hpe-ks-jmh"/>
+                    <constraint firstItem="Ph6-Gi-43A" firstAttribute="top" secondItem="6" secondAttribute="top" constant="239" id="kHC-3I-5Sw"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Ph6-Gi-43A" secondAttribute="bottom" constant="20" symbolic="YES" id="zly-6K-G8H"/>
                 </constraints>
             </view>
             <connections>
