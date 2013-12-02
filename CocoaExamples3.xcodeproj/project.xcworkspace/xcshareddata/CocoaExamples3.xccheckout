@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E84A67B9-2DB9-48E0-BF8A-42293509C88D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CocoaExamples3</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B13B7AD6-2A11-4F10-BB4B-1C3AFF072811</key>
+		<string>https://github.com/ajochope/CocoaExample3.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CocoaExamples3.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B13B7AD6-2A11-4F10-BB4B-1C3AFF072811</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ajochope/Developer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B13B7AD6-2A11-4F10-BB4B-1C3AFF072811</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B13B7AD6-2A11-4F10-BB4B-1C3AFF072811</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Grades</string>
+		</dict>
+	</array>
+</dict>
+</plist>

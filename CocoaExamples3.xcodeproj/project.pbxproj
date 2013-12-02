@@ -20,6 +20,7 @@
 		972962B11848AB65004AB383 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 972962AF1848AB65004AB383 /* InfoPlist.strings */; };
 		972962B31848AB65004AB383 /* GradesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972962B21848AB65004AB383 /* GradesTests.m */; };
 		972962BE1848ACD1004AB383 /* Assignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 972962BD1848ACD1004AB383 /* Assignment.m */; };
+		97B616201849F0EC00785EDE /* DropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B6161F1849F0EC00785EDE /* DropView.m */; };
 		97C407EF1848B7DE007ADD55 /* turtleico3.icns in Resources */ = {isa = PBXBuildFile; fileRef = 97C407EE1848B7DE007ADD55 /* turtleico3.icns */; };
 		97C407F11848C6AF007ADD55 /* fileico.icns in Resources */ = {isa = PBXBuildFile; fileRef = 97C407F01848C6AF007ADD55 /* fileico.icns */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,8 @@
 		972962B21848AB65004AB383 /* GradesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradesTests.m; sourceTree = "<group>"; };
 		972962BC1848ACD1004AB383 /* Assignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment.h; sourceTree = "<group>"; };
 		972962BD1848ACD1004AB383 /* Assignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment.m; sourceTree = "<group>"; };
+		97B6161E1849F0EC00785EDE /* DropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropView.h; sourceTree = "<group>"; };
+		97B6161F1849F0EC00785EDE /* DropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropView.m; sourceTree = "<group>"; };
 		97C407EE1848B7DE007ADD55 /* turtleico3.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = turtleico3.icns; sourceTree = "<group>"; };
 		97C407F01848C6AF007ADD55 /* fileico.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = fileico.icns; path = ../fileico.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +130,8 @@
 				972962971848AB65004AB383 /* Document.h */,
 				972962981848AB65004AB383 /* Document.m */,
 				9729629A1848AB65004AB383 /* Document.xib */,
+				97B6161E1849F0EC00785EDE /* DropView.h */,
+				97B6161F1849F0EC00785EDE /* DropView.m */,
 				972962BC1848ACD1004AB383 /* Assignment.h */,
 				972962BD1848ACD1004AB383 /* Assignment.m */,
 				9729629D1848AB65004AB383 /* MainMenu.xib */,
@@ -270,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				972962991848AB65004AB383 /* Document.m in Sources */,
+				97B616201849F0EC00785EDE /* DropView.m in Sources */,
 				972962BE1848ACD1004AB383 /* Assignment.m in Sources */,
 				972962921848AB65004AB383 /* main.m in Sources */,
 			);
