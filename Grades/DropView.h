@@ -10,6 +10,9 @@
 
 @interface DropView : NSView <NSDraggingDestination>
 {
+    
+    NSPoint startPoint;
+    NSPoint endPoint;
     NSImage *image;
 
 }

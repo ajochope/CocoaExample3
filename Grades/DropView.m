@@ -60,10 +60,31 @@
 	if(!image){
         [[NSColor redColor] set];
         NSRectFill(dirtyRect);
+        [[NSColor blueColor] set];
+        [[NSBezierPath bezierPathWithRect:NSMakeRect(startPoint.x, startPoint.y, endPoint.x - startPoint.x, endPoint.y - startPoint.y)] fill];
+        
     } else {
         [image drawInRect:dirtyRect fromRect:NSZeroRect operation:NSCompositeSourceOver fraction:1];
+        [[NSColor blueColor] set];
+        [[NSBezierPath bezierPathWithRect:NSMakeRect(startPoint.x, startPoint.y, endPoint.x - startPoint.x, endPoint.y - startPoint.y)] fill];
     }
 }
+
+-(void)mouseDown:(NSEvent *)theEvent
+{
+    NSPoint point = [theEvent locationInWindow];
+    startPoint = [self convertPoint:point fromView:nil];
+
+}
+
+-(void)mouseDragged:(NSEvent *)theEvent
+{
+    NSPoint point = [theEvent locationInWindow];
+    endPoint = [self convertPoint:point fromView:nil];
+    [self setNeedsDisplay:YES];
+    
+}
+
 
 -(BOOL)prepareForDragOperation:(id<NSDraggingInfo>)sender
 {
