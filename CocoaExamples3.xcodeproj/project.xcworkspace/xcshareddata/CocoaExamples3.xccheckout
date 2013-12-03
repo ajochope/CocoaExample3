@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>E84A67B9-2DB9-48E0-BF8A-42293509C88D</string>
+	<string>63D4062A-0EAA-4489-9E9E-A205A5006F0E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>CocoaExamples3</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ajochope/Developer.git</string>
+	<string>https://github.com/ajochope/CocoaExample3.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
