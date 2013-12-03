@@ -16,6 +16,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code here.
+        
+        isOval = YES;
         [self registerForDraggedTypes:[NSArray arrayWithObjects:NSURLPboardType, nil]];
     }
     return self;
@@ -61,20 +63,47 @@
         [[NSColor redColor] set];
         NSRectFill(dirtyRect);
         [[NSColor blueColor] set];
+        
+        if(isOval){
+            [[NSBezierPath bezierPathWithOvalInRect:NSMakeRect(startPoint.x, startPoint.y, endPoint.x - startPoint.x, endPoint.y - startPoint.y)] fill];
+        } else{
+        
         [[NSBezierPath bezierPathWithRect:NSMakeRect(startPoint.x, startPoint.y, endPoint.x - startPoint.x, endPoint.y - startPoint.y)] fill];
+        
+        }
         
     } else {
         [image drawInRect:dirtyRect fromRect:NSZeroRect operation:NSCompositeSourceOver fraction:1];
         [[NSColor blueColor] set];
+        
+        if(isOval){
+            [[NSBezierPath bezierPathWithOvalInRect:NSMakeRect(startPoint.x, startPoint.y, endPoint.x - startPoint.x, endPoint.y - startPoint.y)] fill];
+        } else {
+        
         [[NSBezierPath bezierPathWithRect:NSMakeRect(startPoint.x, startPoint.y, endPoint.x - startPoint.x, endPoint.y - startPoint.y)] fill];
+        }
     }
 }
+
+-(BOOL)acceptsFirstResponder
+{
+    return YES;
+}
+
+-(void)keyDown:(NSEvent *)theEvent
+{
+    if([[theEvent characters]isEqualToString:@"o"]){
+        isOval = !isOval;
+    }
+    [self setNeedsDisplay:YES];
+}
+
 
 -(void)mouseDown:(NSEvent *)theEvent
 {
     NSPoint point = [theEvent locationInWindow];
     startPoint = [self convertPoint:point fromView:nil];
-
+    
 }
 
 -(void)mouseDragged:(NSEvent *)theEvent

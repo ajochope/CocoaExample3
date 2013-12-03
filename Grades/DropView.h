@@ -14,7 +14,7 @@
     NSPoint startPoint;
     NSPoint endPoint;
     NSImage *image;
-
+    BOOL isOval;
 }
 @property (retain) NSImage *image;
 @end
